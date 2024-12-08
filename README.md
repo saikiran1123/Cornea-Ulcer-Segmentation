@@ -1,4 +1,4 @@
-# Corneal Ulcer Detection Using U-Net with ResNet50 Encoder
+# Corneal Ulcer Detection Using U-Net and ResNet50
 
 This project implements a Corneal Ulcer Detection model using a U-Net architecture. The model is trained to segment corneal ulcers from raw images using deep learning techniques. The primary focus is on providing accurate segmentation to aid medical diagnosis.
 
