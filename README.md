@@ -1,13 +1,12 @@
 # Corneal Ulcer Detection Using U-Net with ResNet50 Encoder
 
-This project implements a Corneal Ulcer Detection model using a U-Net architecture with ResNet50 as the encoder. The model is trained to segment corneal ulcers from raw images using deep learning techniques. The primary focus is on providing accurate segmentation to aid medical diagnosis.
+This project implements a Corneal Ulcer Detection model using a U-Net architecture. The model is trained to segment corneal ulcers from raw images using deep learning techniques. The primary focus is on providing accurate segmentation to aid medical diagnosis.
 
 ---
 
 ## Features
 
 - **U-Net Architecture:** A state-of-the-art convolutional neural network architecture tailored for image segmentation tasks.
-- **ResNet50 Encoder:** A pre-trained ResNet50 model acts as the encoder to extract high-level features.
 - **Binary Segmentation:** Outputs binary masks to identify ulcer regions in corneal images.
 - **Custom Training Pipeline:** Implements custom data preprocessing and training from scratch.
 
@@ -45,16 +44,6 @@ Place the datasets in the following structure:
 /kaggle/input/raw-images
 /kaggle/input/ulcerlabels
 ```
-
----
-
-## Model Architecture
-
-The model utilizes a U-Net architecture with the following components:
-
-1. **ResNet50 Encoder:** Pre-trained on ImageNet, frozen during training for transfer learning.
-2. **Decoder:** Upsampling and skip connections to reconstruct spatial details.
-3. **Output Layer:** A `Conv2D` layer with a sigmoid activation function to predict binary masks.
 
 ---
 
