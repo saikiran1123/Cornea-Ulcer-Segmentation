@@ -1,1 +1,1 @@
-#Detection of Cornel Ulcer Detection Using Deep Learning
+Detection of Cornel Ulcer Detection Using Deep Learning
